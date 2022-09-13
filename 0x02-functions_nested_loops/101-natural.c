@@ -1,10 +1,4 @@
-/*
- * File: 101-natural.c
- * 
- */
-
 #include <stdio.h>
-
 /**
  * main - Lists all the natural numbers below 1024 (excluded)
  *        that are multiples of 3 or 5.
@@ -20,8 +14,6 @@ int main(void)
 		if ((i % 3) == 0 || (i % 5) == 0)
 			sum += i;
 	}
-
 	printf("%d\n", sum);
-
 	return (0);
 }
