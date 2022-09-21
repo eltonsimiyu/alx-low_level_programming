@@ -1,0 +1,14 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ * string_toupper - Changes lowercase to uppercase
+ * @str: the string pointer
+  
+ *
+ */
+
+
+char *string_toupper(char *)
+{
+	
