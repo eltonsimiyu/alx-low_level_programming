@@ -1,0 +1,19 @@
+#include "main.h"
+
+
+/**
+ * _strlen_recursion - Prints the lenght of a string
+ * @s: Pointer to the string to be printed
+ *
+ * Return: The number of the characters counted
+ */
+
+int _strlen_recursion(char *s)
+{
+	if (*s == '\0')
+	{
+		return (0);
+	}
+
+	return (1 + _strlen_recursion(s + 1));
+}
